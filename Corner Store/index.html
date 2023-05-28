@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"
+    />
+    <!-- CSS -->
+
+     
+    <link rel="stylesheet" href="css/style.css" />
+    <title>CornerStore</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="capw3 fs-2 fw-bold px-2 rounded">C</span
+          ><strong class="fs-2 fw-bold">orner</strong>
+          <span class="subcap fs-2 fw-bold">Store</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-5">
+            <li class="nav-item">
+              <a class="nav-link fs-5 active" href="/event.html" class="blue"
+                >Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5" href="#">Best Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5" href="#">Services</a>
+            </li>
+          </ul>
+          <ul class="nav ms-lg-5 ms-0">
+            <li class="nav-item">
+              <a class="nav-link fs-5 ps-5 d-flex align-items-center" href="#"
+                ><i class="bi bi-telephone pe-3"></i>(+0123) 234 567</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 ps-5 d-flex align-items-center" href="#"
+                ><i class="bi bi-envelope pe-3"></i>store@corner.com</a
+              >
+            </li>
+             
+            <li class="nav-item">
+              <a class="nav-link fs-5 ps-lg-5 ps-5" id="dark-mode-toggle" href="#"
+                ><i class="bi bi-moon pe-lg-4 pe-5"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="header" id="header">
+        <div class="row gx-0">
+          <div class="col-md-3 col-lg-3 col-xl-3 d-lg-block d-none">
+            <ul class="nav flex-column">
+              <li class="nav-item ps-3 gray border-bottom-light">
+                <a class="nav-link" href="#">Branded Foods</a>
+              </li>
+              <li class="nav-item ps-3 gray border-bottom-light">
+                <a class="nav-link" href="#">Households</a>
+              </li>
+              <li class="nav-item dropdown gray border-bottom-light ps-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Veggies & fruits
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Vegetable</a></li>
+                  <li><a class="dropdown-item" href="#">Fruits</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-3 gray border-bottom-light">
+                <a class="nav-link" href="#">Kitchen</a>
+              </li>
+              <li class="nav-item ps-3 gray border-bottom-light">
+                <a class="nav-link" href="#">Short Codes</a>
+              </li>
+              <li class="nav-item dropdown gray border-bottom-light ps-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Beverages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Soft Drink</a></li>
+                  <li><a class="dropdown-item" href="#">Juices</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-3 gray border-bottom-light">
+                <a class="nav-link" href="#">Short Codes</a>
+              </li>
+              <li class="nav-item dropdown gray border-bottom-light ps-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Frozen Food Snacks
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Frozen Snacks</a></li>
+                  <li><a class="dropdown-item" href="#">Frozen Novveg</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-3 gray border-bottom-light">
+                <a class="nav-link" href="#">Bread & Bakery</a>
+              </li>
+              <li class="nav-item dropdown gray ps-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Page
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Blog single</a></li>
+                  <li><a class="dropdown-item" href="#">404</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12 col-lg-9 col-xl-9 px-0">
+           <div class="slider">
+            
+            <div class=" slide__img">
+              <img src="images/banner 2.jpg" class="img-fluid slide__img" alt="Image 1" />
+              <div class="slide__content">
+                <h1 class="fs-1 1h-1 text-light">Organic Foods and <br> Health Products</h1>
+                <p class="fs-4 text-light">Conveniently Located for <br> Your Shopping Needs</p>
+              </div>
+            </div>
+            <div class=" slide__img">
+              <img src="images/banner 1.jpg" class="img-fluid slide__img" alt="Image 1" />
+              <div class="slide__content">
+                <h1 class="fs-1 1h-1 text-light">Quality Meats <br> and Poultry</h1>
+                <p class="fs-4 text-light">Gluten-Free and Allergy <br> Friendly Products</p>
+              </div>
+            </div>
+            <div class=" slide__img">
+              <img src="images/banner 1.jpg" class="img-fluid slide__img" alt="Image 1" />
+              <div class="slide__content">
+                <h1 class="fs-1 1h-1 text-light">Healthy Snacks <br> and Beverages</h1>
+                <p class="fs-4 text-light">Family Owned and <br> Operated Since (year)</p>
+              </div>
+            </div>
+             
+           
+           </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="sale-poster">
+      <div class="container-fluid">
+        <div class="row py-lg-5 py-md-3 justify-contant-end">
+          <div
+            class="col-12 col-lg-3 col-xl-3 col-md-6 pt-lg-0 pt-3 p-2 position-relative"
+          >
+            <img
+              src="images/sale banner 1.jpg"
+              class="img-fluid sale-banner1"
+              alt=""
+            />
+            <div class="sale-text position-absolute top-0 start-50 mt-5">
+              <h4 class="heading fw-bold text-dark">Discount Offer</h4>
+            </div>
+            <span
+              class="sale-offer-text fw-bold position-absolute top-0 start-50"
+              >25%</span
+            >
+          </div>
+          <div
+            class="col-12 col-lg-3 col-xl-3 col-md-6 pt-lg-0 pt-3 p-2 position-relative"
+          >
+            <img src="images/sale banner 2.jpg" class="img-fluid" alt="" />
+            <div class="position-absolute top-0 end-50 mt-3">
+              <h4 class="heading text-dark">Introducing</h4>
+            </div>
+            <h2
+              class="sale-text-3 position-absolute top-0 start-50 mt-5 blue fs-3"
+            >
+              Best Store
+            </h2>
+            <div
+              class="position-absolute top-0 end-50 mt-5 d-flex align-items-center sale-text-2"
+            >
+              <h4 class="fs-4">
+                For <span class="fs-4 orange">GROCERIES</span>
+              </h4>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-3 col-xl-3 col-md-6 col-md-6 pt-lg-0 pt-3 p-2 position-relative"
+          >
+            <img src="images/sale banner 3.jpg" class="img-fluid" alt="" />
+            <div class="position-absolute top-0 start-0 mt-3 ms-5 mt-5">
+              <h4 class="fs2 text-dark fw-bold">SAVE</h4>
+              <span class="orange fs-5">UPTO</span>
+              <h4 class="fs2 text-dark fw-bold">$10</h4>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-3 col-xl-3 col-md-6 pt-lg-0 pt-3 p-2 position-relative"
+          >
+            <img src="images/sale banner 3.jpg" class="img-fluid" alt="" />
+            <div class="position-absolute top-0 start-0 mt-3 ms-5 mt-5">
+              <h4 class="fs2 text-dark fw-bold">SAVE</h4>
+              <span class="orange fs-5">UPTO</span>
+              <h4 class="fs2 text-dark fw-bold">$10</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Your Daily Staples -->
+    <section class="gray">
+      <div class="container mt-5">
+        <div class="row pt-4">
+          <div class="col-12">
+            <h2 class="fs-1 text-center fw-bold underline position-relative">
+              Your Daily Staples
+            </h2>
+          </div>
+        </div>
+        <div class="row py-5 mx-5 mt-5">
+          <div class="col-12 col-xl-3 col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="card border position-relative">
+              <img
+                src="images/proudct 1.png"
+                class="card-img-top"
+                alt="proudct"
+              />
+              <div class="card-body">
+                <p class="card-title">Fortune Sunflower Oil</p>
+                <span class="fs-6 fw-bold">$7.99</span>
+                <del class="ps-3"> $10.00</del>
+              </div>
+              <div class="tag-offer position-absolute start-50 ms-4">
+                <img src="images/tag offer.png" alt="" />
+              </div>
+              <div class="text-center py-3">
+                <a href="#" class="btn btn-primary border-0">ADD TO CARD</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-3 col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="card border position-relative">
+              <img
+                src="images/proudct 2.png"
+                class="card-img-top"
+                alt="proudct"
+              />
+              <div class="card-body">
+                <p class="card-title">Fortune Sunflower Oil</p>
+                <span class="fs-6 fw-bold">$7.99</span>
+                <del class="ps-3"> $10.00</del>
+              </div>
+              <div class="offer position-absolute">
+                <img src="images/offer.png" alt="" />
+              </div>
+              <div class="text-center py-3">
+                <a href="#" class="btn btn-primary border-0">ADD TO CARD</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-3 col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="card border position-relative">
+              <img
+                src="images/proudct 3.png"
+                class="card-img-top"
+                alt="proudct"
+              />
+              <div class="card-body">
+                <p class="card-title">Fortune Sunflower Oil</p>
+                <span class="fs-6 fw-bold">$7.99</span>
+                <del class="ps-3"> $10.00</del>
+              </div>
+              <div class="offer position-absolute">
+                <img src="images/offer.png" alt="" />
+              </div>
+              <div class="text-center py-3">
+                <a href="#" class="btn btn-primary border-0">ADD TO CARD</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-3 col-lg-3 col-md-6">
+            <div class="card border position-relative">
+              <img
+                src="images/proudct 4.png"
+                class="card-img-top"
+                alt="proudct"
+              />
+              <div class="card-body">
+                <p class="card-title">Fortune Sunflower Oil</p>
+                <span class="fs-6 fw-bold">$7.99</span>
+                <del class="ps-3"> $10.00</del>
+              </div>
+              <div class="offer position-absolute">
+                <img src="images/offer.png" alt="" />
+              </div>
+              <div class="text-center py-3">
+                <a href="#" class="btn btn-primary border-0">ADD TO CARD</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container mt-5">
+        <div class="row py-5">
+          <div class="col-12 mb-4">
+            <h2 class="fs-1 fw-bold text-center underline position-relative">
+              Top Products
+            </h2>
+          </div>
+          <div class="row gray mx-0 rounded mt-5">
+            <div class="col-12 col-lg-3 col-xl-3 col-md-3 p-3">
+              <ul
+                class="nav flex-row flex-md-column flex-nowrap flex-md-wrap overflow-auto bg-white rounded"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link nowrap active d-flex align-items-center"
+                    href="#"
+                  >
+                    <i class="bi bi-check-lg pe-3 fs-4 blue"></i>ALL BRANDS</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#">
+                    <i class="bi bi-check-lg pe-3 fs-4 blue"></i>VEGETABLES</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#">
+                    <i class="bi bi-check-lg pe-3 fs-4 blue"></i>FRUITS</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#"
+                    ><i class="bi bi-check-lg pe-3 fs-4 blue"></i>JUICES</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#">
+                    <i class="bi bi-check-lg pe-3 fs-4 blue"></i>PET FOOD</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#">
+                    <i class="bi bi-check-lg pe-3 fs-4 blue"></i>BREAD &
+                    BAKERY</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#">
+                    <i class="bi bi-check-lg pe-3 fs-4 blue"></i>CLEANING</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#"
+                    ><i class="bi bi-check-lg pe-3 fs-4 blue"></i>SPICES</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#"
+                    ><i class="bi bi-check-lg pe-3 fs-4 blue"></i>DRY FRUITS</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nowrap d-flex align-items-center" href="#"
+                    ><i class="bi bi-check-lg pe-3 fs-4 blue"></i>DAIRY
+                    PRODUCTS</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-9 col-xl-9 col-md-9 pt-3">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                  <img
+                    src="images/market 1.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                  <img
+                    src="images/market 1.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                  <img
+                    src="images/market 2.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                  <img
+                    src="images/market 4.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                  <img
+                    src="images/market 2.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                  <img
+                    src="images/market 4.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                  <img
+                    src="images/market 3.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                  <img
+                    src="images/market 5.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                  <img
+                    src="images/market 3.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                  <img
+                    src="images/market 5.jpg"
+                    class="img-fluid mt-2"
+                    alt=""
+                  />
+                  <!-- <div class="row">
+                  <div class="col-12 mb-4">
+                  </div>
+                  <div class="col-12">
+                  </div>
+                </div> -->
+                </div>
+                <div class="wrapper mb-2 mt-0">
+                  <h4 class="d-flex justify-content-end">
+                    Get 25% Off On First Order And Also Get Gift Voucher
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-orange">
+      <div class="container mt-5 mb-5">
+        <div class="row py-5 align-items-center">
+          <div class="col-12 col-lg-6 col-xl-6 col-md-6">
+            <h3 class="text-light fs-3 text-center titel pt-3">
+              Sign up for Our Newsletter
+            </h3>
+          </div>
+          <div
+            class="col-12 col-lg-6 col-xl-6 col-md-6 mt-lg-0 mt-md-3 position-relative"
+          >
+            <form class="py-5">
+              <input class="bg-none outline-none ps-3 text-dark" type="email"   placeholder="Enter your email" required />
+              <input class="position-absolute submit-btn top-0 end-0 py mt-3
+              rounded-end fs-5 px-4 ps-4 mt-5" type="submit" value="subscribe now">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-footer mt-5" id="footer">
+      <div class="container">
+        <div class="row py-4 border-bottom">
+          <div class="col-12 col-lg-3 col-xl-3 col-md-6">
+            <h5 class="text-light fs-4 mt-5">INFORMATION</h5>
+            <ul class="nav flex-column pt-4">
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#">
+                  <i class="bi bi-chevron-right text-color fs-5 pe-2"></i
+                  >Events</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i>About
+                  Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i>Best
+                  Deals</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i>Short
+                  Codes</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 col-xl-3 col-md-6">
+            <h5 class="text-light fs-4 mt-5">POLICY INFO</h5>
+            <ul class="nav flex-column pt-4">
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#">
+                  <i class="bi bi-chevron-right text-color fs-5 pe-2"></i>FAQ</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i>
+                  Privacy Policy</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i>Terms
+                  Of Use</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 col-xl-3 col-md-6">
+            <h5 class="text-light fs-4 mt-5">WHAT IN STORES</h5>
+            <ul class="nav flex-column pt-4">
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#">
+                  <i class="bi bi-chevron-right text-color fs-5 pe-2"></i>Pet
+                  Food</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i
+                  >Frozen Snacks</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i
+                  >Kitchen</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-6" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i
+                  >Branded Foods</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0 text-color fs-5" href="#"
+                  ><i class="bi bi-chevron-right text-color fs-5 pe-2"></i
+                  >Households</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 col-xl-3 col-md-6">
+            <h5 class="text-light fs-4 mt-5">TWITTER POSTS</h5>
+
+            <div class="row mt-5">
+              <div class="col-2">
+                <i class="bi bi-twitter blue fs-6 pe-2"></i>
+              </div>
+              <div class="col-10 ps-0">
+                <i class="text-color">01 day ago</i>
+                <p class="text-color pt-2">Non numquam</p>
+                <p class="text-color pt-0">
+                  <a href="#" class="text-light">http://sd.ds/13jklf#</a> eius
+                  modi tempora incidunt ut labore et
+                  <a href="#" class="text-light">http://sd.ds/1389kjklf#quo</a>
+                  nulla.
+                </p>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-2">
+                <i class="bi bi-twitter blue fs-6 pe-2"></i>
+              </div>
+              <div class="col-10 ps-0">
+                <i class="text-color">01 day ago</i>
+                <p class="text-color pt-2">Non numquam</p>
+                <p class="text-color pt-0">
+                  <a href="#" class="text-light">http://sd.ds/13jklf#</a> eius
+                  modi tempora incidunt ut labore et
+                  <a href="#" class="text-light">http://sd.ds/1389kjklf#quo</a>
+                  nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-xl-3 col-md-6">
+            <h5 class="fs-5 mt-5 blue">100% Secure Payments</h5>
+            <img src="images/visa card.png" class="pt-3" alt="" />
+          </div>
+          <div class="col-12 col-lg-3 col-xl-3 col-md-6">
+            <h5 class="text-light fs-5 mt-5">Connect With Us</h5>
+            <ul class="nav justify-content-start">
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#"
+                  ><i class="bi bi-meta text-light fs-3"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#"
+                  ><i class="bi bi-twitter text-light fs-3"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#"
+                  ><i class="bi bi-google text-light fs-3"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-0" href="#"
+                  ><i class="bi bi-instagram text-light fs-3"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <p class="text-color text-center mt-5 border-top pt-5">
+            © 2021 Corner Store. All rights reserved | Design by
+            <a href="https://w3layouts.com/" class="text-light">W3layouts</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".slider").slick({
+          dots: false,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+      });
+
+
+// const toggleSwitch = document.querySelector('#dark-mode-toggle');
+// toggleSwitch.addEventListener('click', (e) => {
+//   document.body.classList.toggle("dark-theme");
+// });
+    </script>
+  </body>
+</html>
